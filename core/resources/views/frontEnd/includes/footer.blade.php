@@ -193,13 +193,9 @@ if (Helper::GeneralSiteSettings("style_footer") != 1) {
                                    target="_blank"><i
                                         class="fa fa-instagram"></i></a></li>
                         @endif
-{{--                            <a href="https://wa.me/{{Helper::GeneralSiteSettings('social_link10')}}" data-placement="top"  target="_blank" >--}}
-{{--                                <i class="fa fa-telegram"></i>--}}
-{{--                            </a>--}}
-{{--                            <a href="tg://msg?text=Welcome to AlruknAlmotimize!" id="telegram_share" class="mobileShare" title="inviteFriends" >--}}
-{{--                                <i class="fa fa-telegram"></i>--}}
+
                                 <a href = "https://telegram.me/share/url?url={{ env("APP_URL") }}&text={{ env("APP_NAME") }}">
-                                <i class="fa fa-telegram"></i>
+                                <i class="fa fa-telegram" style="font-size:24px"></i>
                             </a>
 
 
