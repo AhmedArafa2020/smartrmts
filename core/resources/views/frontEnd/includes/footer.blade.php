@@ -173,41 +173,51 @@ if (Helper::GeneralSiteSettings("style_footer") != 1) {
                                    target="_blank"><i
                                         class="fa fa-facebook"></i></a></li>
                         @endif
-                        @if(Helper::GeneralSiteSettings('social_link2'))
-                            <li><a href="{{Helper::GeneralSiteSettings('social_link2')}}" data-placement="top" title="Twitter"
-                                   target="_blank"><i
-                                        class="fa fa-twitter"></i></a></li>
-                        @endif
+{{--                        @if(Helper::GeneralSiteSettings('social_link2'))--}}
+{{--                            <li><a href="{{Helper::GeneralSiteSettings('social_link2')}}" data-placement="top" title="Twitter"--}}
+{{--                                   target="_blank"><i--}}
+{{--                                        class="fa fa-twitter"></i></a></li>--}}
+{{--                        @endif--}}
                         @if(Helper::GeneralSiteSettings('social_link4'))
                             <li><a href="{{Helper::GeneralSiteSettings('social_link4')}}" data-placement="top" title="linkedin"
                                    target="_blank"><i
                                         class="fa fa-linkedin"></i></a></li>
                         @endif
-                        @if(Helper::GeneralSiteSettings('social_link5'))
-                            <li><a href="{{Helper::GeneralSiteSettings('social_link5')}}" data-placement="top" title="Youtube"
-                                   target="_blank"><i
-                                        class="fa fa-youtube-play"></i></a></li>
-                        @endif
+{{--                        @if(Helper::GeneralSiteSettings('social_link5'))--}}
+{{--                            <li><a href="{{Helper::GeneralSiteSettings('social_link5')}}" data-placement="top" title="Youtube"--}}
+{{--                                   target="_blank"><i--}}
+{{--                                        class="fa fa-youtube-play"></i></a></li>--}}
+{{--                        @endif--}}
                         @if(Helper::GeneralSiteSettings('social_link6'))
                             <li><a href="{{Helper::GeneralSiteSettings('social_link6')}}" data-placement="top" title="Instagram"
                                    target="_blank"><i
                                         class="fa fa-instagram"></i></a></li>
                         @endif
-                        @if(Helper::GeneralSiteSettings('social_link7'))
-                            <li><a href="{{Helper::GeneralSiteSettings('social_link7')}}" data-placement="top" title="Pinterest"
-                                   target="_blank"><i
-                                        class="fa fa-pinterest"></i></a></li>
-                        @endif
-                        @if(Helper::GeneralSiteSettings('social_link8'))
-                            <li><a href="{{Helper::GeneralSiteSettings('social_link8')}}" data-placement="top" title="Tumblr"
-                                   target="_blank"><i
-                                        class="fa fa-tumblr"></i></a></li>
-                        @endif
-                        @if(Helper::GeneralSiteSettings('social_link9'))
-                            <li><a href="{{Helper::GeneralSiteSettings('social_link9')}}" data-placement="top" title="Snapchat"
-                                   target="_blank"><i
-                                        class="fa fa-snapchat"></i></a></li>
-                        @endif
+{{--                            <a href="https://wa.me/{{Helper::GeneralSiteSettings('social_link10')}}" data-placement="top"  target="_blank" >--}}
+{{--                                <i class="fa fa-telegram"></i>--}}
+{{--                            </a>--}}
+{{--                            <a href="tg://msg?text=Welcome to AlruknAlmotimize!" id="telegram_share" class="mobileShare" title="inviteFriends" >--}}
+{{--                                <i class="fa fa-telegram"></i>--}}
+                                <a href = "https://telegram.me/share/url?url={{ env("APP_URL") }}&text={{ env("APP_NAME") }}">
+                                <i class="fa fa-telegram"></i>
+                            </a>
+
+
+                            {{--                        @if(Helper::GeneralSiteSettings('social_link7'))--}}
+{{--                            <li><a href="{{Helper::GeneralSiteSettings('social_link7')}}" data-placement="top" title="Pinterest"--}}
+{{--                                   target="_blank"><i--}}
+{{--                                        class="fa fa-pinterest"></i></a></li>--}}
+{{--                        @endif--}}
+{{--                        @if(Helper::GeneralSiteSettings('social_link8'))--}}
+{{--                            <li><a href="{{Helper::GeneralSiteSettings('social_link8')}}" data-placement="top" title="Tumblr"--}}
+{{--                                   target="_blank"><i--}}
+{{--                                        class="fa fa-tumblr"></i></a></li>--}}
+{{--                        @endif--}}
+{{--                        @if(Helper::GeneralSiteSettings('social_link9'))--}}
+{{--                            <li><a href="{{Helper::GeneralSiteSettings('social_link9')}}" data-placement="top" title="Snapchat"--}}
+{{--                                   target="_blank"><i--}}
+{{--                                        class="fa fa-snapchat"></i></a></li>--}}
+{{--                        @endif--}}
 
                     </ul>
                 </div>
@@ -220,3 +230,4 @@ if (Helper::GeneralSiteSettings("style_footer") != 1) {
     <i class="fa fa-whatsapp"></i>
 </a>
 @endif
+
