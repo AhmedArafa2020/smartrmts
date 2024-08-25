@@ -19,25 +19,25 @@ class TopicsSeeder extends Seeder
 
         $Topic->title_ar = "من نحن";
         $Topic->title_en = "About Us";
-        $Topic->title_ch = "关于";
-        $Topic->title_hi = "के बारे में";
-        $Topic->title_es = "Acerca de";
-        $Topic->title_ru = "О";
-        $Topic->title_pt = "Cerca de";
-        $Topic->title_fr = "À propos";
-        $Topic->title_de = "Over";
-        $Topic->title_th = "เกี่ยวกับ";
+//        $Topic->title_ch = "关于";
+//        $Topic->title_hi = "के बारे में";
+//        $Topic->title_es = "Acerca de";
+//        $Topic->title_ru = "О";
+//        $Topic->title_pt = "Cerca de";
+//        $Topic->title_fr = "À propos";
+//        $Topic->title_de = "Over";
+//        $Topic->title_th = "เกี่ยวกับ";
 
         $Topic->details_ar = "هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص.";
         $Topic->details_en = "It is a long established fact that a reader will be distracted by the readable content of a page.";
-        $Topic->details_ch = "一个长期存在的事实是，读者会被页面的可读内容分散注意力。";
-        $Topic->details_hi = "यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक किसी पृष्ठ की पठनीय सामग्री से विचलित हो जाएगा।";
-        $Topic->details_es = "Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página.";
-        $Topic->details_ru= "Давно установлено, что читатель будет отвлекаться на читабельное содержание страницы.";
-        $Topic->details_pt = "É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página.";
-        $Topic->details_fr = "C'est un fait établi de longue date qu'un lecteur sera distrait par le contenu lisible d'une page.";
-        $Topic->details_de = "Het is een vaststaand feit dat een lezer wordt afgeleid door de leesbare inhoud van een pagina.";
-        $Topic->details_th = "เป็นข้อเท็จจริงที่มีมาช้านานว่าผู้อ่านจะถูกรบกวนโดยเนื้อหาที่อ่านได้ของหน้า";
+//        $Topic->details_ch = "一个长期存在的事实是，读者会被页面的可读内容分散注意力。";
+//        $Topic->details_hi = "यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक किसी पृष्ठ की पठनीय सामग्री से विचलित हो जाएगा।";
+//        $Topic->details_es = "Es un hecho establecido desde hace mucho tiempo que un lector se distraerá con el contenido legible de una página.";
+//        $Topic->details_ru= "Давно установлено, что читатель будет отвлекаться на читабельное содержание страницы.";
+//        $Topic->details_pt = "É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página.";
+//        $Topic->details_fr = "C'est un fait établi de longue date qu'un lecteur sera distrait par le contenu lisible d'une page.";
+//        $Topic->details_de = "Het is een vaststaand feit dat een lezer wordt afgeleid door de leesbare inhoud van een pagina.";
+//        $Topic->details_th = "เป็นข้อเท็จจริงที่มีมาช้านานว่าผู้อ่านจะถูกรบกวนโดยเนื้อหาที่อ่านได้ของหน้า";
 
 
         $Topic->date = date('Y-m-d');

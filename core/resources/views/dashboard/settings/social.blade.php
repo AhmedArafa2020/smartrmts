@@ -32,16 +32,16 @@
             {!! Form::text('social_link6',$Setting->social_link6, array('placeholder' => __('backend.instagram'),'class' => 'form-control', 'dir'=>'ltr')) !!}
         </div>
 
-        <div class="form-group">
-            <label><i class="fa fa-pinterest"></i> &nbsp; {!!  __('backend.pinterest') !!}
-            </label>
-            {!! Form::text('social_link7',$Setting->social_link7, array('placeholder' => __('backend.pinterest'),'class' => 'form-control', 'dir'=>'ltr')) !!}
-        </div>
+{{--        <div class="form-group">--}}
+{{--            <label><i class="fa fa-pinterest"></i> &nbsp; {!!  __('backend.pinterest') !!}--}}
+{{--            </label>--}}
+{{--            {!! Form::text('social_link7',$Setting->social_link7, array('placeholder' => __('backend.pinterest'),'class' => 'form-control', 'dir'=>'ltr')) !!}--}}
+{{--        </div>--}}
 
-        <div class="form-group">
-            <label><i class="fa fa-tumblr"></i> &nbsp; {!!  __('backend.tumblr') !!}</label>
-            {!! Form::text('social_link8',$Setting->social_link8, array('placeholder' => __('backend.tumblr'),'class' => 'form-control', 'dir'=>'ltr')) !!}
-        </div>
+{{--        <div class="form-group">--}}
+{{--            <label><i class="fa fa-tumblr"></i> &nbsp; {!!  __('backend.tumblr') !!}</label>--}}
+{{--            {!! Form::text('social_link8',$Setting->social_link8, array('placeholder' => __('backend.tumblr'),'class' => 'form-control', 'dir'=>'ltr')) !!}--}}
+{{--        </div>--}}
 
         <div class="form-group">
             <label><i class="fa fa-snapchat"></i> &nbsp; {!!  __('backend.snapchat') !!}</label>
