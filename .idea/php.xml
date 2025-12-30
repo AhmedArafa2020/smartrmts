@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="LaravelPint">
+    <laravel_pint_settings>
+      <LaravelPintConfiguration tool_path="$PROJECT_DIR$/core/vendor/bin/pint" />
+    </laravel_pint_settings>
+  </component>
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -177,7 +182,6 @@
       <path value="$PROJECT_DIR$/core/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/core/vendor/joedixon/laravel-translation" />
       <path value="$PROJECT_DIR$/core/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/core/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/core/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/core/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/core/vendor/vlucas/phpdotenv" />
@@ -197,7 +201,6 @@
       <path value="$PROJECT_DIR$/core/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/core/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/core/vendor/laravel/serializable-closure" />
-      <path value="$PROJECT_DIR$/core/vendor/laravel/pint" />
       <path value="$PROJECT_DIR$/core/vendor/laravel/socialite" />
       <path value="$PROJECT_DIR$/core/vendor/fruitcake/php-cors" />
       <path value="$PROJECT_DIR$/core/vendor/psr/simple-cache" />
@@ -240,7 +243,6 @@
       <path value="$PROJECT_DIR$/core/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/http-foundation" />
       <path value="$PROJECT_DIR$/core/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-php81" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/uid" />
       <path value="$PROJECT_DIR$/core/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/http-kernel" />
@@ -248,7 +250,6 @@
       <path value="$PROJECT_DIR$/core/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/service-contracts" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/core/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-uuid" />
@@ -260,8 +261,18 @@
       <path value="$PROJECT_DIR$/core/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/core/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/core/vendor/ralouphie/getallheaders" />
-      <path value="$PROJECT_DIR$/core/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/core/vendor/torann/geoip" />
+      <path value="$PROJECT_DIR$/core/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/core/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/core/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/core/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/core/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/core/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/core/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/core/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/core/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/core/vendor/laravel/pint" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

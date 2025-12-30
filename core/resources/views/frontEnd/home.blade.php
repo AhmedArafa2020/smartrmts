@@ -105,8 +105,8 @@
             </div>
         </section>
     @endif
-
-    @if(count($HomeTopics)>0)
+<!-- Section Newst أحدث المقالات -->
+    <!-- @if(count($HomeTopics)>0)
         <section class="content-row-bg">
             <div class="container">
 
@@ -364,8 +364,8 @@
 
             </div>
         </section>
-    @endif
-
+    @endif -->
+<!-- End Section Newsest -->
     @if(count($HomePhotos)>0)
         <section class="content-row-no-bg">
             <div class="container">

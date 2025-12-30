@@ -559,10 +559,10 @@
                                            data-placement="top" title="linkedin"
                                            target="_blank"><i
                                                 class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="{{ Helper::SocialShare("tumblr", $PageTitle)}}" class="tumblr'"
-                                           data-placement="top" title="Tumblr"
-                                           target="_blank"><i
-                                                class="fa fa-tumblr"></i></a></li>
+{{--                                    <li><a href="{{ Helper::SocialShare("tumblr", $PageTitle)}}" class="tumblr'"--}}
+{{--                                           data-placement="top" title="Tumblr"--}}
+{{--                                           target="_blank"><i--}}
+{{--                                                class="fa fa-tumblr"></i></a></li>--}}
                                 </ul>
                             </div>
                         </div>

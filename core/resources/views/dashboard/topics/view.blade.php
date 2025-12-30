@@ -59,6 +59,7 @@ if ($WebmasterSection->$title_var != "") {
         $title_var2 = "title_" . env('DEFAULT_LANGUAGE');
         $details_var = "details_" . @Helper::currentLanguage()->code;
         $details_var2 = "details_" . env('DEFAULT_LANGUAGE');
+
         if ($Topic->$title_var != "") {
             $title = $Topic->$title_var;
         } else {
@@ -142,7 +143,8 @@ if ($WebmasterSection->$title_var != "") {
                             </div>
                         </div>
                     @endif
-                    @if($WebmasterSection->date_status)
+                    @if($WebmasterSection->created_at)
+
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="row field-row">
